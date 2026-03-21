@@ -14,10 +14,9 @@ class quickSort {
 public:
     void sort(std::vector<std::string>&dataQuick);
 
-private:
     void recursividadQS(std::vector<std::string>&dataQuick, int low, int high);
 
-    void dividir(std::vector<std::string>&dataQuick, int low, int high);
+    int dividir(std::vector<std::string>&dataQuick, int low, int high);
 
 
 };

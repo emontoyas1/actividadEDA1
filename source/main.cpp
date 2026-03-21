@@ -20,6 +20,7 @@ int main() {
     std::vector<std::string> dataOriginal = cargarDatos("palabras.txt");
 
     std::vector<std::string> dataQuick = dataOriginal;
+    sort(dataQuick);
 
     std::vector<std::string> dataHeap = dataOriginal;
 
