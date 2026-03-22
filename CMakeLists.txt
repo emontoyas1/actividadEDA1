@@ -5,4 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(actividadEDA_1 source/main.cpp
         source/quickSort.cpp
-        source/quickSort.h)
+        source/quickSort.h
+        source/arbolAVL.cpp
+        source/arbolAVL.h
+        source/heapSort.cpp
+        source/heapSort.h)

@@ -7,18 +7,18 @@
 
 #include <vector>
 #include <string>
+#include <iostream>
 
 
+namespace qS{
 class quickSort {
-
 public:
-    void sort(std::vector<std::string>&dataQuick);
+    static void organizarQS(std::vector<std::string>&dataQuick);
 
-    void recursividadQS(std::vector<std::string>&dataQuick, int low, int high);
+    static void recursividadQS(std::vector<std::string>&dataQuick, int low, int high);
 
-    int dividir(std::vector<std::string>&dataQuick, int low, int high);
-
-
+    static int dividir(std::vector<std::string>&dataQuick, int low, int high);
+};
 };
 
 
