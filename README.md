@@ -40,5 +40,7 @@ Tiempo de ejecucion: 0.322367 seg
 -AVL mantiene la propiedad de balance: la diferencia de alturas entre subárboles izquierdo y derecho es máximo 1 en todo nodo, por lo tanto, cada insercion recorre como maximo la altura O(log n)
 Tiempo de ejecucion: 0.199938 seg
 
-
+### DECLARACION DE IA
+Se uso IA solamente para subir archivos al github, tambien para algunos errores de sintaxis.
+Revisar archivo .claude
 
