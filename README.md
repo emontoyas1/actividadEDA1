@@ -40,15 +40,5 @@ Tiempo de ejecucion: 0.322367 seg
 -AVL mantiene la propiedad de balance: la diferencia de alturas entre subárboles izquierdo y derecho es máximo 1 en todo nodo, por lo tanto, cada insercion recorre como maximo la altura O(log n)
 Tiempo de ejecucion: 0.199938 seg
 
-## Estructura del proyecto 
-
-actividadEDA_1/
-├── source/
-│   ├── main.cpp
-│   ├── quickSort.h / quickSort.cpp   (namespace qS) se usa interfaz en las clases para lograr un codigo mas limpio!
-│   ├── heapSort.h  / heapSort.cpp    (namespace hS)
-│   ├── arbolAVL.h  / arbolAVL.cpp   (namespace avl)
-│   └── palabras.txt
-└── CMakeLists.txt
 
 
