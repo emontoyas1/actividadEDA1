@@ -13,6 +13,8 @@ O(n log n) -> cuando el pivote divide la lista en 2 mitades mas o menos iguales
 Peor caso
 (n^2) -> cuando el pivote que se elige resulta ser el numero mayor o el numero menor de el arreglo
 
+Tiempo de ejecucion: 0.321877 seg
+
 ### 2. HeapSort
 
 Peor caso, caso promedio y mejor caso
@@ -27,6 +29,8 @@ para restaurar el orden.
 -Como el elemento es tan peque;o, en la inmensa mayoria de la iteraciones tendra que caer a alguna hoja del arbol, la distancia desde la raiz hasta las hojas en un arbol binario es de *O(log n)*
 al repetir el proceso de extraccion y hundimiento  para n elementos nos da que la complejidad algoritmica es de _O(n log n)_
 
+Tiempo de ejecucion: 0.322367 seg
+
 ### 3, Arbol AVL
 - Insercion -> O(log n)
 - Insertar n palabras O(n log n)
@@ -34,7 +38,7 @@ al repetir el proceso de extraccion y hundimiento  para n elementos nos da que l
 - Total =O (n log n)
 
 -AVL mantiene la propiedad de balance: la diferencia de alturas entre subárboles izquierdo y derecho es máximo 1 en todo nodo, por lo tanto, cada insercion recorre como maximo la altura O(log n)
-
+Tiempo de ejecucion: 0.199938 seg
 
 ## Estructura del proyecto 
 
